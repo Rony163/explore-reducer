@@ -1,11 +1,10 @@
-import { useReducer, useState } from 'react';
 import './App.css';
+import Count from './components/Count';
 
 function App() {
-  const [user, setUser] = useState([]);
   return (
     <div className="App">
-
+      <Count></Count>
     </div>
   );
 }
